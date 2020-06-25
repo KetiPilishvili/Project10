@@ -132,7 +132,7 @@ label {
 }
 .input-group {
 	height: 45px;
-	font-family: MyriadPro-Regular;
+	font-family: 'MyriadPro-Regular';
 	border:none;
 	outline: none;
 	color: darkblue;
