@@ -79,7 +79,7 @@
   }
 }
 @media (max-width: 650px) {
-  h5 {
+  .title {
     font-size: 15px;
    }
    .info {

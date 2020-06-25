@@ -38,38 +38,39 @@
 			</div>
 		</div>
 	</header>
-	<section>
-		<div class="container">
-			<div class="bg-img"></div>
-	</section>
-	<section >
-		<div class="container">
-			<div class="forms-wraper">
-				<form class="contact-wraper">
-					<div class="forms">
-						<label for="name"> Name</label>
-						<input class="input-group" type="text"id="name" name="name" placeholder="...type your name">
-					</div>
 
-					<div class="forms">
-						<label for="Email"> E-mail</label>
-						<input class="input-group" type="E-mail"id="name" name="emal" placeholder="...type your e-mail">
-					</div>
+	<div class="container">
+		<div class="bg-img"></div>
+	</div>
+	
+	<div class="container">
+		<div class="forms-wraper">
+			<form class="contact-wraper">
+				<div class="forms">
+					<label for="fname">Name</label>
+					<input class="input-group" type="text" name="firstname" id="fname" placeholder="Your Name..." required>
+				</div>
 
-					<div class="forms">
-						<label for="Subject"> Subject</label>
-						<input class="input-group" type="subject"id="subject" name="subject" placeholder="...type the mail subject">
-					</div>
-			        <div class="forms">
-						<label for="Message"> Mesaage</label>
-						<textarea class="textarea" id="mesaage" > </textarea>
-					</div>
-					</form>
+				<div class="forms">
+					<label for="myemail"> E-mail</label>
+					<input class="input-group" type="text" id="myemail" name="email" placeholder="...type your e-mail" required>
 				</div>
-				<div class="btn">
-					<button class="btn-submit" type="submit">Send</button>
+
+				<div class="forms">
+					<label for="mysubject"> Subject</label>
+					<input class="input-group" type="text" id="mysubject" name="subject" placeholder="...type the mail subject" >
 				</div>
-	</section>
+
+		        <div class="forms">
+					<label for="Message"> Mesaage</label>
+					<textarea class="textarea" id="Message" > </textarea>
+				</div>
+			</form>
+		</div>
+		<div class="btn">
+			<button class="btn-submit" type="submit">Send</button>
+		</div>
+	</div>
 	<footer>
 		<div class="container">
 			<div class="d-flex">
@@ -77,12 +78,12 @@
 					<img src="img/footer-logo.svg" alt="logo">
 				</div>
 				<div class="items">
-					<h5>კონტაქტი</h5>
+					<h4 class="title">კონტაქტი</h4>
 					<p class="info">+995 0322 38 08 02</p>
 					<p class="info">info@lucapolare.com</p>
 				</div>
 				<div class="items">
-					<h5 >მისამართი</h5>
+					<h5 class="title" >მისამართი</h5>
 					<p class="info">მერაბ ალექსიძის ქუჩა 10. თბილისი</p>
 				</div>
 				<div class="social">
