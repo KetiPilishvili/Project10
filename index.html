@@ -24,7 +24,7 @@
 						<ul class="navigation">
 							<li class="nav-a"><a href="#">პროექტის შესახებ</a></li>
 			                <li class="nav-a"><a href="#">მოთხოვნები</a></li>
-			                <li class="nav-a"><a href="#">EXPLORE</a></li>
+			                <li class="nav-a"><a href="#">CONTACT</a></li>
 			                <li class="nav-a"><a href="#">შესვლა</a></li>
 						</ul>
 					</nav>
@@ -43,26 +43,34 @@
 			<div class="bg-img"></div>
 	</section>
 	<section >
-		<div class="forms">
-			<form class="registracion">
-				<label for="fname"> Name</label>
-				<input type="text"id="name" name="name" placeholder="...type your name">
+		<div class="container">
+			<div class="forms-wraper">
+				<form class="contact-wraper">
+					<div class="forms">
+						<label for="name"> Name</label>
+						<input class="input-group" type="text"id="name" name="name" placeholder="...type your name">
+					</div>
 
-				<label for="email"> E-mail</label>
-				<input type="E-mail"id="name" name="enamil" placeholder="...type your e-mail">
+					<div class="forms">
+						<label for="Email"> E-mail</label>
+						<input class="input-group" type="E-mail"id="name" name="emal" placeholder="...type your e-mail">
+					</div>
 
-				<label for="fsubject"> subject</label>
-				<input type="subject"id="subject" name="subject" placeholder="...type the mail subject">
-
-				<label for="fmessage"> mesaage</label>
-				<input type="mesaage"id="message" name="mesaage">
-			</form>
-		</div>
-		<div class="btn">
-			<button class="btn-submit" type="submit">Send</button>
-		</div>
+					<div class="forms">
+						<label for="Subject"> Subject</label>
+						<input class="input-group" type="subject"id="subject" name="subject" placeholder="...type the mail subject">
+					</div>
+			        <div class="forms">
+						<label for="Message"> Mesaage</label>
+						<textarea class="textarea" id="mesaage" > </textarea>
+					</div>
+					</form>
+				</div>
+				<div class="btn">
+					<button class="btn-submit" type="submit">Send</button>
+				</div>
 	</section>
-	<!-- <footer>
+	<footer>
 		<div class="container">
 			<div class="d-flex">
 				<div class="logo">
@@ -91,7 +99,7 @@
 				</div>	
 			</div>
 		</div>
-	</footer> -->
+	</footer>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"> </script>
 </body>
 </html>

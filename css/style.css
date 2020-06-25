@@ -62,10 +62,60 @@
 	height: 600px;
 	background-position: center;
 }
+/*forms*/
+.forms-wraper{
+	display: flex;
+	justify-content: flex-start;
+}
+.contact-wraper {
+	max-width: 650px;
+	width:100%;
+	margin-left: 40px;
+}
+label {
+	padding: 10px;
+}
+.forms {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+.forms:first-child {
+	padding-top: 60px;
+}
+.input-group {
+	height: 45px;
+	border:none;
+	outline: none;
+	color: darkblue;
+	box-shadow: 0 0 3px #000000;
+	text-transform: lowercase;
+}
+.textarea {
+	height: 112px;
+	resize: none;
+	border:none;
+	box-shadow: 0 0 3px #000000;
+	outline: none;
+}
+.btn {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 40px;
+	padding: 15px 0 60px 0;
+}
+.btn-submit {
+	width: 130px;
+	height: 35px;
+	text-transform: uppercase;
+	background-color: #2E2E2E;
+	color: #fff;
+	cursor: pointer;
+}
 /*here is my footer*/
 footer {
 	display: flex;
-	padding: 30px;
+	padding-top: 30px;
 	background-color: #2E2E2E;
 }
 .items{
@@ -87,10 +137,11 @@ h5 {
 .social {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: nowrap;
 	align-items: center;
 }
 .soc-icon a{
 	font-size: 30px;
-	padding: 10px;
+	padding-right: 10px;
 	color: white;
 }
