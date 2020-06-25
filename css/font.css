@@ -9,14 +9,15 @@
     font-weight: 100;
     font-style: normal;
 }
-@font-face {
-    font-family: 'Pierre Dingbats';
-    src: url('../ZapfDingbats.eot');
-    src: url('../ZapfDingbats.eot?#iefix') format('embedded-opentype'),
-        url('../ZapfDingbats.woff2') format('woff2'),
-        url('../ZapfDingbats.woff') format('woff'),
-        url('../ZapfDingbats.ttf') format('truetype'),
-        url('../ZapfDingbats.svg#ZapfDingbats') format('svg');
-    font-weight: 100;
+font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/MyriadPro-Regular.woff2') format('woff2'),
+        url('../fonts/MyriadPro-Regular.woff') format('woff'),
+        url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+        url('../fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+    font-weight: normal;
     font-style: normal;
+}
 

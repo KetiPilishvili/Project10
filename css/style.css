@@ -47,6 +47,7 @@
 }
 .nav-a a{
 	font-size: 20px;
+	font-family: Archy EDT;
 	color:#000 ;
 }
 .search {
@@ -112,6 +113,7 @@
 }
 label {
 	padding: 10px;
+	font-family: MyriadPro-Regular;
 }
 .forms {
 	display: -webkit-box;
@@ -130,6 +132,7 @@ label {
 }
 .input-group {
 	height: 45px;
+	font-family: MyriadPro-Regular;
 	border:none;
 	outline: none;
 	color: darkblue;
@@ -188,12 +191,14 @@ footer {
 }
 .title {
 	font-size: 20px;
+	font-family: 'Archy EDT';
 	padding-bottom: 5px;
 	color: #fff;
 }
 .info {
 	font-size: 13px;
 	padding-bottom: 5px;
+	font-family: 'Archy EDT';
 	color: #fff;
 }
 .social {
